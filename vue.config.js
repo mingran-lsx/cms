@@ -4,7 +4,7 @@ const Components = require('unplugin-vue-components/webpack')
 const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 
 module.exports = {
-  outputDir: './build',
+  // outputDir: './build',
   lintOnSave: false,
   // publicPath: process.env.NODE_ENV === 'production' ? './' : './',
   // 和webpapck属性完全一致，最后会进行合并
