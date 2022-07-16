@@ -24,4 +24,18 @@ module.exports = {
       })
     ]
   },
+  // 配置webpack开发服务器
+  devServer: {
+    port: 9001,
+    open: true,
+    // proxy: {
+    //   '/api': {
+    //     target: 'http://localhost:3000',
+    //     changeOrigin: true,
+    //     pathRewrite: {
+    //       '^/api': ''
+    //     }
+    //   }
+    // }
+  }
 }
